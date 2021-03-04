@@ -1,204 +1,74 @@
-body {
-  font-family: "Avenir Next";
-  color:#404146;
-  text-align: center;
-}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio CChilaw</title>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-logo">Cchilaw</div>
+      <div class="header-list">
+        <ul>
+          <li><a href="#about-link">Tentang Saya</a></li>
+          <li><a href="#work-link">Proyek Contoh</a></li>
+          <li><a href="#contact-link">Hubungi Saya</a></li>
+        </ul>
+      </div>
+    </div>
 
-li {
-  list-style: none;
-}
+    <div class="main">
+      <div class="copy-container">
+        <h1>CCHILA<span>W</span></h1>
+        <h2>Portofolio Saya</h2>
+        <img src="https://i.ibb.co/mNYSD56/Animasi.gif" alt="Animasi" border="0">
+      </div>
+      
+      <div class="about">
+        <h3><a id="about-link">Tentang Saya</a></h3>
+        <p>Cchilaw biasa dipanggil Cchi adalah seorang illustrator lepas yang berdomisili di Jogja, sekarang lebih sering berkutat dengan online shopnya Halokamu.id.</p>
+      </div>
 
-.header {
-  background-color: #91C6C7;
-  color: #fff;
-  height: 100px;
-}
+      <div class="contents">
+        <h3><a id="work-link">Proyek Contoh</a></h3>
+        <div class="contents-item">
+          <img src="https://i.ibb.co/m4KfGg0/contoh-ilust.png" alt="contoh-ilust" border="0">
+          <p>Ilustrasi Pasangan</p>
+        </div>
+        <div class="contents-item">
+          <img src="https://i.ibb.co/GcVWWgP/contoh-hewan.png" alt="contoh-hewan" border="0">
+          <p>Ilustrasi Hewan Peliharaan</p>
+        </div>
+        <div class="contents-item">
+          <img src="https://i.ibb.co/prqYZRX/contoh-makanan.png" alt="contoh-makanan" border="0">
+          <p>Ilustrasi Makanan</p>
+        </div>
+        
+      </div>
+      
+      <div class="contact-form">
+        <h3 class="contact-title"><a id="contact-link">Hubungi Saya</a></h3>
+        <input placeholder="Email (Diperlukan)">
+        <br>
+        <textarea placeholder="Message (Diperlukan)"></textarea>
+        <br>
+        <input class="contact-submit" type="submit" value="Kirim">
+        <p>* Required fields must be filled</p>
+        
+      </div>
+    </div>
 
-.header-logo {
-  float: left;
-  font-size: 40px;
-  font-weight:800;
-  letter-spacing: 2px;
-  padding: 25px 40px;
-  color:#265354;
-}
-
-.header-list li {
-  float: left;
-  padding: 35px 15px;
-  font-size: 20px;
- }
-
- .header-list a {
-  text-decoration: none;
-  color:#D1FEFF;
-}
-
-.copy-container {
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-
-.copy-container h1 {
-  font-size: 100px;
-  margin-bottom: 0px;
-  letter-spacing: 10px;
-  color: #265354
-}
-
-.copy-container h2 {
-  font-size: 30px;
-  font-weight: 100;
-  margin-top: 10px;
-  margin-bottom: 0px;
-  color: #91C6C7;
-}
-
-.copy-container span {
-  color: #91C6C7;
-}
-
-.copy-container img {
-  height:400px;
-  padding-top: 30px;
-}
-
-.about { 
-  font-size: 28px;
-  height: 260px;
-  background-color:#edf8f8;
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-
-.about a {
-  color:#265354;
-}
-
-/*.about h3 {
-  padding-top: 80px;
-  padding-bottom: 20px;
-}*/
-
-.about p {
-  padding: 0px 150px;
-  font-size: 20px;
-  color:#91C6C7
-}
-
-.contents {
-  height: 500px;
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-
-.contents a {
-  color: #265354;
-}
-
-.contents h3 {
-  font-size: 28px;
-  padding-bottom: 20px;
-}
-
-.contents-item {
-  float: left;
-  width: 30%;
-  padding: 3px;
-}
-
-.contents-item img{
-  height: 250px;
-    box-shadow: 5px 5px 20px rgba(228, 228, 228, 0.886);
-}
-
-.contents-item p {
-  font-size: 18px;
-  margin-top: 30px;
-  color:#91C6C7;
- }
-
-.contact-form {
-  height: 500px;
-  padding-top: 80px;
-  padding-bottom: 80px;
-  background-color: #edf8f8;
-}
-
-.contact-title {
-  font-size: 28px;
-  padding-bottom: 20px;
-}
-
-.contact-title a {
-color: #265354;
-}
-
-input, textarea {
-  width: 600px;
-  margin-top: 10px;
-  margin-bottom: 30px;
-  padding:20px;
-  font-size: 18px;
-  border: 0px;
-  background-color: #ffffff;
-  border-radius: 15px;
-}
-
-::placeholder {
-  font-family: "Avenir Next";
-  color:#618B8C;
-  }
-
-.contact-submit{
-  width: 300px;
-  background-color:#265354;
-  color:#fff;
-  font-size: 20px;
-}
-
-.contact-form p{
-  font-size: 18px;
-  color:#618B8C;
-  }
-
-.footer {
-  background-color: #618B8C;
-  color: #fff;
-  height: 120px;
-  padding: 25px 40px;
-  }
-
-.footer-logo {
-  float: left;
-  text-align: left;
-  padding-top: 12px;
-}
-
-.footer-logo span {
-  font-size: 32px;
-  font-weight:700;
-  letter-spacing: 2px;
-  color: #265354
-}
-
-.footer-logo h1 {
-font-size: 11px;
-font-weight: 100;
-color: #D1FEFF;
-}
-
-.footer-list {
-  float: right;
-}
-
-.footer-list li {
-  padding-bottom: 20px;
-}
-
-.footer-list a {
-  text-decoration: none;
-  color:#D1FEFF;
-  font-size: 15px;
-  text-align: right;
-}
+    <div class="footer">
+      <div class="footer-logo"><span>Cchilaw</span>
+        <h1>do not use without permission</h1>
+      </div>
+      <div class="footer-list">
+        <ul>
+          <li><a href="#about-link">Tentang Saya</a></li>
+          <li><a href="#work-link">Proyek Contoh</a></li>
+          <li><a href="#contact-link">Hubungi Saya</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
