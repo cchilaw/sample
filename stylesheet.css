@@ -105,11 +105,14 @@ li {
   float: left;
   width: 30%;
   padding: 3px;
-}
+  margin: 9px;
+  text-align: center;
+  }
 
 .contents-item img{
   height: 250px;
     box-shadow: 5px 5px 20px rgba(228, 228, 228, 0.886);
+   
 }
 
 .contents-item p {
@@ -147,7 +150,7 @@ input, textarea {
 
 ::placeholder {
   font-family: "Avenir Next";
-  color:#618B8C;
+  color:618B8C;
   }
 
 .contact-submit{
